@@ -29,8 +29,8 @@ tests are located in /src/test/java/com/meeting/booking
 ## Run the example of Meeting Request Application
 
 
-1. Go to the application url using http://localhost:8001/meeting-calendar. System reads flat file available in application classpath(file is located inside the src/main/resources)
-and exposes the meeting requests in the JSON format.
+1. Hit the url http://localhost:8001/meeting-calendar using postman with the form data as multipart and upload the file. 
+system reads the supplied text file as payload and shows the meeting requests
 
 2. Bookings are displayed in the asc order of booking date.
 
